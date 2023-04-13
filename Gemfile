@@ -22,3 +22,6 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+# Added at 2023-04-12 19:48:04 -0400 by nhat:
+gem "rexml", "~> 3.2"
