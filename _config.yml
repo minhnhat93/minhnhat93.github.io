@@ -120,9 +120,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Nhat Nguyen's blog # blog_name will be displayed in your blog page
+blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
+blog_description: ML and philosophy
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -202,7 +202,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ['_pages/about.md']
 exclude:
   - bin
   - Gemfile
